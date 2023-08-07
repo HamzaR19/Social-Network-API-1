@@ -43,7 +43,7 @@ Hamza Rahman
 All testing was done via Insomnia
 
 ## Video
-[Link to Video](https://www.youtube.com/watch?v=y-vj5T320lc)
+[Link to Video](https://www.youtube.com/watch?v=yUv7Ge6D3ek)
 
 ## License
 
