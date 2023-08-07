@@ -1,6 +1,6 @@
 const connection = require('../config/connection');
 const { Users, Thoughts } = require('../models');
-const {emails, usernames, thoughts} = require('./data');
+const {emails, usernames} = require('./data');
 
 connection.on(`error`, (err) => err)
 
@@ -14,7 +14,7 @@ connection.once(`open`, async () => {
         users.push({
             username: usernames[i],
             email: emails[i],
-            thoughts: []
+            
         });
             
         }
