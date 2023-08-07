@@ -14,7 +14,7 @@ connection.once(`open`, async () => {
         users.push({
             username: usernames[i],
             email: emails[i],
-            thoughts: thoughts[i],
+            thoughts: []
         });
             
         }

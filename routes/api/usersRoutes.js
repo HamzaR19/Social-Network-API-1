@@ -1,5 +1,6 @@
 const router = require('express').Router();
-const {getAllUsers, getUserById, createUser, updateUser, deleteUser, addFriend, deleteFriend} = require('../../controllers/usersController');
+// const { get } = require('mongoose');
+const {getAllUsers, getOneUser, createUser, updateUser, deleteUser, addFriend, deleteFriend} = require('../../controllers/usersController');
 
 // /api/users
 router
@@ -10,7 +11,7 @@ router
 // /api/users/:userId
 router
     .route('/:userId')
-    .get(getUserById)
+    .get(getOneUser)
     .put(updateUser)
     .delete(deleteUser);
 

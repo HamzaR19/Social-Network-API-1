@@ -52,36 +52,7 @@ const usernames = [
     "chloe.roberts@example.com",
     "elijah.ward@example.com"
   ];
-  const thoughts = [
-    "Life is a journey, not a destination.",
-    "Happiness comes from within.",
-    "Every problem is an opportunity in disguise.",
-    "The only constant in life is change.",
-    "Kindness costs nothing but means everything.",
-    "Success is the sum of small efforts repeated day in and day out.",
-    "You are never too old to set a new goal or dream a new dream.",
-    "The best way to predict the future is to create it.",
-    "Challenges make life interesting; overcoming them makes life meaningful.",
-    "Gratitude turns what we have into enough.",
-    "Mistakes are proof that you are trying.",
-    "The past cannot be changed, but the future is in your hands.",
-    "A smile is the most beautiful curve on a person's face.",
-    "Believe in yourself and you're halfway there.",
-    "Life is short; make it sweet.",
-    "Success is not final, failure is not fatal: It is the courage to continue that counts.",
-    "Every day is a new beginning.",
-    "Don't wait for the perfect moment; take the moment and make it perfect.",
-    "The secret to getting ahead is getting started.",
-    "You are capable of more than you know.",
-    "Your thoughts create your reality.",
-    "The best is yet to come.",
-    "Follow your heart but take your brain with you.",
-    "Simplicity is the ultimate sophistication.",
-    "Success is not about the destination but the journey.",
-  ];
-  
- 
-  
+
   
  
     const getRandom = (arr) => {
@@ -91,4 +62,4 @@ const usernames = [
 
  
     
-    module.exports = { emails, usernames, thoughts, getRandom };
+    module.exports = { emails, usernames,  getRandom };
